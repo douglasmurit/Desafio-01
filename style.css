@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-30deg) skew(25deg) scale(0.5); 
+    background: rgba(0, 0, 0, 0.288);
+    transition: 0.5s;
+  
+    
+}
+
+.logo:hover img:nth-child(4){
+    transform: translate(130px, -130px);
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.logo:hover img:nth-child(3){
+    transform: translate(90px, -90px);
+    opacity: 0.6;
+    border-radius: 8px;
+
+}
+
+.logo:hover img:nth-child(2){
+    transform: translate(50px, -50px);
+    opacity: 0.4;
+    border-radius: 8px;
+
+}
+
+.logo:hover img:nth-child(1){
+    transform: translate(10px, -10px);
+    opacity: 0.2;
+    border-radius: 8px;
+
+}
+
+.logo img{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+}
+
